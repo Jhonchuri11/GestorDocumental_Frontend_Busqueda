@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda principal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-info bg-info">
+        <div class="container">
+            <img src="img/tecsupp.png" width="250px" height="" class="navbar-brand">
+        </div>
+    </nav>
+    <section class="bg-dark text-light p-2">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <p class="mb-2 mb-md-0">Tesis y proyectos de Tecnología Digital</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container p-2">
+            <h2>Buscar</h2>
+            <hr>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccionar</option>
+                    <option value="1">1. Proyectos Integradores</option>
+                    <option value="2">2. Pretesis</option>
+                    <option value="3">3. Tesis</option>
+                </select>
+            </div>
+            <div class="col-md-8 primero">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control controlador" placeholder="Ingresar su búsqueda">
+                    <a href="#" class="btn btn-outline-secondary" type="button">
+                        <i class="bi bi-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-link" id="showSearch">Búsqueda avanzada</button>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-3" id="SearchSection" style="display: none;">
+        <div class="row">
+            <h2>Búsqueda avanzada</h2>
+            <p>Use los siguientes criterios para mejorar sus resultados.</p>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Categorias</option>
+                    <option value="1">Proyectos Integradores</option>
+                    <option value="2">Pretesis</option>
+                    <option value="3">Tesis</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Criterios</option>
+                    <option value="1">Autor</option>
+                    <option value="2">Título</option>
+                    <option value="3">Asesor</option>
+                    <option value="4">Tema</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Ingresar su búsqueda" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <a href="busqueda_autor.html" class="btn btn-outline-secondary" type="button">
+                        <i class="bi bi-search"></i>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section class="container mt-3" id="resultSection">
+        <p>Mostrando ítems 1-2 de 200</p>
+        <div class="row">
+            <div class="col-md-3 mt-4">
+                <img class="imgdocumento" src="img/tesis.png" width="240px"  height="240px">
+            </div>
+            <div class="col-md-9 mt-4">
+                <a href="doc_td.html" class="documento">La implementación de un proceso con estructura monitoria en el Perú como vía idónea para garantizar la autonomía, el derecho a la igualdad y no discriminación de las personas con discapacidad </a>
+                <p>Ancalle Gonzáles, Celene Lorenza; Bendezú Medina, Samuel Hernán (Pontificia Universidad Católica del Perú, 2017-02-15)</p>
+                <p class="text-justify">José de Saramago, escritor luso, Premio Nobel de Literatura, en su célebre novela “Ensayo sobre la ceguera” (1995), nos narra la historia de una fulminante epidemia, que surge de manera inopinada en una ciudad sin nombre, ...</p>
+            </div>
+            <div class="col-md-3 mt-4">
+                <img class="imgdocumento" src="img/tesis.png" width="240px"  height="240px">
+            </div>
+            <div class="col-md-9 mt-4">
+                <a href="doc_td.html" class="documento">La implementación de un proceso con estructura monitoria en el Perú como vía idónea para garantizar la autonomía, el derecho a la igualdad y no discriminación de las personas con discapacidad </a>
+                <p>Ancalle Gonzáles, Celene Lorenza; Bendezú Medina, Samuel Hernán (Pontificia Universidad Católica del Perú, 2017-02-15)</p>
+                <p class="text-justify">José de Saramago, escritor luso, Premio Nobel de Literatura, en su célebre novela “Ensayo sobre la ceguera” (1995), nos narra la historia de una fulminante epidemia, que surge de manera inopinada en una ciudad sin nombre, ...</p>
+            </div>
+        </div>
+        <!-- Agregando paginación -->
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </section>
+    <footer class="text-center py-4 bg-dark text-white">
+        <div class="container">
+            <img src="./img/tecsupa.png" alt="Logo Tecsup" width="100">
+            <p class="mt-2">Tecsup cerca de ti!</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

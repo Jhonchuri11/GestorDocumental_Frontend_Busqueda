@@ -1,0 +1,46 @@
+.letter-link {
+    margin-right: 10px;
+}
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-select, .form-control {
+    outline: none;
+    text-decoration: red; 
+    border: none; 
+    box-shadow: none;
+    border-radius: 20; 
+    background-color: #f8f9fa; 
+    color: #495057;
+}
+.documento {
+    text-decoration: none;
+}
+.letter-link {
+    text-decoration: none;
+}
+.resumen {
+    text-align: justify;
+}
+
+.btn-outline-secondary {
+    text-decoration: none; 
+}
+
+.btn-link {
+    text-decoration: none; 
+    color: #007bff; 
+}
+
+.imgdocumento {
+    border: 2px solid rgba(169, 169, 169, 0.5); 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+.imgdocumento {
+    width: 100%; 
+    height: auto; 
+}

@@ -1,0 +1,40 @@
+body {
+    background-image: url('/img/fondo.png');
+    background-size: cover;
+}
+/* -- Login  container --- */
+.box-area {
+    width: 90%;
+    height: 90vh;
+    text-align: center;
+    padding: 50px;
+    border-radius: 3% 3% 3% 3%;
+}
+/* -- Left box --- */
+
+/* -- Right box --- */
+.right-box {
+    padding: 50px 60px 50px 60px;
+    text-align: center;
+}
+/* -- Subtitulos inicio de sesion --- */
+.subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+.btn-login {
+    width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+    .left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+    .right-box {
+        padding: 20px;
+    }
+}

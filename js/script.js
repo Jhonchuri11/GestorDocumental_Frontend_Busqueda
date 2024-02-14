@@ -43,3 +43,9 @@ function eliminarElemento(row) {
         contenedor.removeChild(elementoPadre);
     }
 }
+
+function toggleMenu() {
+    var subMenu = document.getElementById("subMenu");
+
+    subMenu.classList.toggle("open-menu");
+}

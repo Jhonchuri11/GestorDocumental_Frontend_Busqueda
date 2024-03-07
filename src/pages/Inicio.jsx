@@ -151,8 +151,7 @@ export default function Inicio() {
                         <img className="imgdocumento" src={doctesis} width={"240px"} height={"240px"}/>
                     </div>
                     <div className="col-md-9 mt-4">
-                        <a href="#" class="documento">La implementación de un proceso con estructura monitoria en el Perú como vía idónea para garantizar la autonomía, el derecho a la igualdad y no discriminación de las personas con discapacidad </a>
-                        <Link to='/detalle' className='documento'>Segundo</Link>
+                        <Link to='/detalle' className='documento'>La implementación de un proceso con estructura monitoria en el Perú como vía idónea para garantizar la autonomía, el derecho a la igualdad y no discriminación de las personas con discapacidad </Link>
                         <p>Ancalle Gonzáles, Celene Lorenza; Bendezú Medina, Samuel Hernán (Pontificia Universidad Católica del Perú, 2017-02-15)</p>
                         <p class="text-justify">José de Saramago, escritor luso, Premio Nobel de Literatura, en su célebre novela “Ensayo sobre la ceguera” (1995), nos narra la historia de una fulminante epidemia, que surge de manera inopinada en una ciudad sin nombre, ...</p>
                     </div>
@@ -160,7 +159,7 @@ export default function Inicio() {
                         <img className="imgdocumento" src={doctesis} width={"240px"} height={"240px"}/>
                     </div>
                     <div className="col-md-9 mt-4">
-                        <a href="#" class="documento">La implementación de un proceso con estructura monitoria en el Perú como vía idónea para garantizar la autonomía, el derecho a la igualdad y no discriminación de las personas con discapacidad </a>
+                    <Link to='/detalle' className='documento'>La implementación de un proceso con estructura monitoria en el Perú como vía idónea para garantizar la autonomía, el derecho a la igualdad y no discriminación de las personas con discapacidad </Link>
                         <Link to='/detalle' className='documento'>Segundo</Link>
                         <p>Ancalle Gonzáles, Celene Lorenza; Bendezú Medina, Samuel Hernán (Pontificia Universidad Católica del Perú, 2017-02-15)</p>
                         <p class="text-justify">José de Saramago, escritor luso, Premio Nobel de Literatura, en su célebre novela “Ensayo sobre la ceguera” (1995), nos narra la historia de una fulminante epidemia, que surge de manera inopinada en una ciudad sin nombre, ...</p>

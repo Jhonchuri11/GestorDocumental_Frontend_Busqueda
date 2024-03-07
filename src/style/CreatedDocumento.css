@@ -1,0 +1,5 @@
+/* Personalizando tamaño de alerta */
+.swal-medium {
+    width: 400px; 
+    font-size: 16px; 
+}

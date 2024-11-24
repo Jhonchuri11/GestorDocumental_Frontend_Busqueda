@@ -1,4 +1,4 @@
-###  GESTOR DOCUMENTAL.
+### RESULTADO GESTOR DOCUMENTAL.
 
 |                               Principal                               | 
 |:------------------------------------------------------------------------------:|

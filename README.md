@@ -1,6 +1,6 @@
 C24_2024_FRONTEND_V1
 
-### Calculador IMC.
+### GESTOR DOCUMENTAL.
 
 |                               Pantalla principal                               | 
 |:------------------------------------------------------------------------------:|
